@@ -8,6 +8,15 @@ body {
     background-color: #213341;
 }
 
+#main-title {
+    text-decoration: none;
+    color: #000;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
 .navP {
     display: flex;
     justify-content: space-evenly;
