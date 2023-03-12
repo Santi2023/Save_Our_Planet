@@ -233,6 +233,10 @@ form.reserva-contacto .campo textarea {
     padding: 15px 10px;
 }
 
+#pqrs {
+    cursor: pointer;
+}
+
 form.reserva-contacto .campo textarea {
     height: 200px;
 }
@@ -245,6 +249,7 @@ form.reserva-contacto input[type="submit"] {
     text-align: center;
     background-color: #0c7585;
     color: #000;
+    cursor: pointer;
 }
 
 form.reserva-contacto input[type="submit"]:hover {
