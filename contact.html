@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="titulo">
+            <a href="index.html"><img class="logo" src="img/icono.png" alt="Logo"></a>
+            <h1>Salva al Planeta</h1>
+        </div>
+        <div class="Inicio">
+            <nav class="navP">
+                <a href="index.html">Inicio</a>
+                <a href="about.html">Nosotros</a>
+                <a href="help.html">Como ayudar?</a>
+                <a href="#" class="activo">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-class">
+            <div class="cont-encabezado-about">
+                <h2 class="encabezado-about">Alguna Pregunta?<span>Contactanos</span><img src="./img/favicon-32x32.png"
+                        class="planta">
+                </h2>
+            </div>
+
+            <div class="contenedor-grid">
+                <form action="database.html" class="reserva-contacto" method="get">
+                    <h2 class="title-form">Formulario</h2>
+
+                    <div class="campo">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="campo">
+                        <input type="tel" name="telefono" placeholder="Telefono" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="pqrs">Tipo de mensaje:</label>
+                        <select id="pqrs">
+                            <option value="Peticion">Peticion</option>
+                            <option value="Peticion">Queja</option>
+                            <option value="Peticion">Reclamo</option>
+                            <option value="Peticion">Sugerencia</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="enviar" class="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contenedor">
+            <div class="footer-informacion">
+                <h3>Sobre <span>Salva el Planeta</span></h3>
+                <p>En nuestra página web, estamos comprometidos con la protección y conservación del medio ambiente. Nos
+                    preocupamos por el futuro de nuestro planeta y creemos que cada uno de nosotros tiene un papel
+                    fundamental que desempeñar en su preservación.</p>
+            </div>
+            <div class="footer-menu">
+                <h4>Menu:</h4>
+                <ul class="footer-menu-ul">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="#">Como Ayudar</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="redes-sociales">
+                <nav class="nav-footer">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </nav>
+            </div>
+        </div>
+
+        <div>
+            <p class="copyright">Copyright &copy; 2023 Todos los derechos Reservados</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
